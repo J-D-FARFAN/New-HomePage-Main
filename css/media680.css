@@ -1,0 +1,29 @@
+@media screen and (max-width: 680px) {
+    body{
+        .content__all{
+            
+            .content__heroPage{
+
+                .content__introductionHeroPage{
+
+                    .IntroductionPage{
+                        
+                        .introductionImagePage{
+                            background: url(../assets/images/image-web-3-mobile.jpg) center no-repeat;
+                            background-size: cover;
+                        }
+                        .content--titlePage__description{
+                            width: 100%;
+                            flex-direction: column;
+                            gap: 2rem;
+                        }
+                    }
+
+                    .contentAsidePage--NewNotices{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

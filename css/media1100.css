@@ -1,0 +1,30 @@
+
+@media screen and (max-width: 1100px) {
+    .spacePadding{padding: 0;}
+
+    body{
+        height: 100%;
+        .content__all{
+            padding: 3rem;
+            .content__header--navbar{
+                width: 100%;
+            }
+
+            .content__heroPage{
+                width: 100%;
+
+                .content__introductionHeroPage{
+                    gap: 2rem;
+                }
+
+                .content__FooterPage{
+                    .bx--products{
+                        .bx--descriptionProduct{
+                            width: 100%;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 550px) {
+
+    :root{
+        --ziceTitle: 4rem !important;
+    }
+
+    .txt{width: 100% !important;}
+
+    body{
+        .content__all{
+            padding: 2rem 1rem;
+            .content__header--navbar{
+                position: relative;
+                .navbar{ 
+                    display: none;
+                    position: fixed;
+                    width: 300px;
+                    height: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: var(--Off-white);
+                    right: 0;
+                    top: 0;
+                    z-index: 3;
+                    padding: 0 3rem;
+
+                    .linksNavbar{font-size: 20px; color: var(--DarkGrayishBlue); font-weight: var(--fontWeightTwo);}
+                }
+
+                .menuBurguer{
+                    position: relative;
+                    z-index: 300;
+                    display: flex;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

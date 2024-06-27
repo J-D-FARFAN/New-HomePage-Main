@@ -1,0 +1,197 @@
+@import url(main.css);
+
+.spacePadding{padding: 4rem 10%;}
+
+body{
+    height: 100vh;
+    background-color: var(--Off-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content__all{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .content__header--navbar{
+            width: 1108px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4rem;
+
+            .navbar{
+                display: flex;
+                gap: 3.5rem;
+
+                .linksNavbar{
+                    font-size: var(--fontZ);
+                    color: var(--DarkGrayishBlue);
+                    transition: .3s ease;
+
+                    &:hover{color: var(--SoftRed);}
+                }
+            }
+
+            .menuBurguer{
+                display: none;
+                width: 45px;
+                height: 30px;
+                background: url(../assets/images/icon-menu.svg) no-repeat center;
+                background-size: contain;
+            }
+        }
+
+        .content__heroPage{
+            width: 1108px;
+
+            .content__introductionHeroPage{
+                width: 100%;
+                height: fit-content;
+
+
+                display: flex;
+                justify-content: space-between;
+
+                .IntroductionPage{
+                    width: 729px;
+
+                    .introductionImagePage{
+                        width: 100%;
+                        height: 300px;
+                        background: url(../assets/images/image-web-3-desktop.jpg) center no-repeat;
+                        background-size: cover;
+                    }
+
+                    .content--titlePage__description{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 3rem;
+
+                        .title{
+                            font-size: var(--ziceTitle);
+                            width: 350px;
+                        }
+
+                        .bx--descriotionPage{
+                            .stylesDescriptionContent{
+                                width: 340px;
+                                color: var(--DarkGrayishBlue);
+                                margin-bottom: 2rem;
+                            }
+
+                            .btn-readMore{
+                                width: 185px;
+                                height: 45px;
+                                font-size: 1.5rem;
+                                text-transform: uppercase;
+                                letter-spacing: 3px;
+                                background-color: var(--SoftRed);
+                                color: var(--VeryDarkBlue);
+                                font-weight: var(--fontWeightThree);
+                                cursor: pointer;
+                                transition: .2s ease;
+
+                                &:hover{
+                                    background-color: var(--VeryDarkBlue);
+                                    color: var(--Off-white);
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                .contentAsidePage--NewNotices{
+                    width: 330px;
+                    background-color: var(--VeryDarkBlue);
+                    color: var(--Off-white);
+                    padding: 3rem 1.5rem;
+
+                    .titleNew{
+                        color: var(--SoftOrange);
+                        font-size: 3rem;
+                        margin-bottom: 3rem;
+                    }
+
+                    .bx--notices{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2.5rem;
+
+                        hr{
+                            width: 100%;
+                            border-color: var(--DarkGrayishBlue);
+                        }
+
+                        .notices{
+
+                            .titleNotices{
+                                font-size: 2rem;
+                                margin-bottom: 1.2rem;
+                                transition: .3s ease;
+
+                                &:hover{color: var(--SoftOrange); cursor: pointer;}
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content__FooterPage{
+                width: 100%;
+                height: 127px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 4rem;
+
+
+                .bx--products{
+                    display: flex;
+                    gap: 2rem;
+
+                    .imageProducts{
+                        width: 100px;
+                        height: 100%;
+                        background: center no-repeat;
+                        background-size: cover;
+
+                    }
+                    .revivingRetro{background-image: url(../assets/images/image-retro-pcs.jpg);}
+                    .Laptops2022{background-image: url(../assets/images/image-top-laptops.jpg);}
+                    .growthGaming{background-image: url(../assets/images/image-gaming-growth.jpg);}
+
+                    .bx--descriptionProduct{
+                        width: 210px;
+
+                        .numberProduct{
+                            color: var(--SoftRed);
+                            font-size: 2.5rem;
+                            font-weight: var(--fontWeightTwo);
+                        }
+
+                        .description--product{
+                            margin-top: 1rem;
+                            .titleProduct{
+                                font-size: 15px;
+                                font-weight: var(--fontWeightThree);
+                                margin-bottom: 1rem;
+                                transition: .3s ease;
+                                cursor: pointer;
+
+                                &:hover{color: var(--SoftRed);}
+                            }
+
+                            .txt{color: var(--DarkGrayishBlue); font-size: 14px;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

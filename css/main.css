@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(reset.css);
+@import url(styles.css);
+@import url(media1100.css);
+@import url(media970.css);
+@import url(media680.css);
+@import url(media550.css);
+
+:root{
+    --SoftOrange: hsl(35, 77%, 62%); /*Color Hover TXT*/
+    --SoftRed: hsl(5, 85%, 63%); /* COLOR(BTN - NUMBER)*/
+
+    --Off-white: hsl(36, 100%, 99%); /*Bacground*/
+    --GrayishBlue: hsl(233, 8%, 79%);
+    --DarkGrayishBlue: hsl(236, 13%, 42%);
+    --VeryDarkBlue: hsl(240, 100%, 5%);
+
+    /*TEXT STYLES*/
+    --fontZ: 15px; /*Font size (paragraph): 15px*/
+    --fontF: "Inter", sans-serif; /*Font Family (paragraph)*/
+    --fontWeightOne: 400;
+    --fontWeightTwo: 700;
+    --fontWeightThree: 800;
+    --ziceTitle: 5.3rem;
+}
+
+
+
+.txt{
+    color: var(--GrayishBlue);
+    font-size: var(--fontZ);
+    line-height: 2.5rem;
+}
+
+.menuBurguerClose{
+    position: fixed;
+    right: 10px;
+    display: block;
+    width: 45px;
+    height: 30px;
+    background: url(../assets/images/icon-menu-close.svg) no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.montionBlur{
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: hsla(240, 100%, 5%, 0.337);
+    animation: blur 2s forwards;
+    
+
+}
+
+@keyframes blur {
+    100%{
+        background-color: hsla(240, 100%, 5%, 0.666);
+    }
+}

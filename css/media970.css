@@ -1,0 +1,32 @@
+@media screen and (max-width: 970px) {
+    body{
+        .content__all{
+            
+            .content__heroPage{
+
+                .content__introductionHeroPage{
+                    flex-direction: column;
+                    gap: 5rem;
+
+                    .IntroductionPage{
+                        width: 100%;
+                    }
+
+                    .contentAsidePage--NewNotices{
+                        width: 100%;
+                    }
+                }
+
+                .content__FooterPage{
+                    height: fit-content;
+                    flex-direction: column;
+                    gap: 2rem;
+
+                    .bx--products{
+                        height: 127px;
+                    }
+                } 
+            }
+        }
+    }
+}
